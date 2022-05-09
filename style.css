@@ -18,7 +18,6 @@ header{
     margin: 0 auto;
     justify-content:space-between;
     background-color:#daa520;
-    /* border: 2px dashed black; */
 }
 
 .logo{
@@ -45,11 +44,13 @@ nav a{
     padding: 10px;
 }
 
-/* Prima sezione main */
+/* Padding di default su ogni sezione */
 
 main section{
     padding: 40px;
 }
+
+/* Prima sezione main */
 
 .first_container{
     display: flex;
@@ -63,3 +64,25 @@ main section{
     background-color: #ee82ee;
     border: 2px dashed black;
 }
+
+/* Seconda sezione main */
+.second_container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.box1{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box2{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
