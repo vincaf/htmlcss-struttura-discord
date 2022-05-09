@@ -108,3 +108,24 @@ main section{
     border: 2px dashed black;
 }
 
+/* Quarta sezione main */
+
+.fourth_container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.box5{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box6{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
