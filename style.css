@@ -86,3 +86,25 @@ main section{
     border: 2px dashed black;
 }
 
+/* Terza sezione main */
+
+.third_container{
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
+.box4{
+    flex-basis: 45%;
+    height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.box3{
+    flex-basis: 25%;
+    height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
