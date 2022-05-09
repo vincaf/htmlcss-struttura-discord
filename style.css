@@ -129,3 +129,18 @@ main section{
     background-color: #ffc0cb;
     border: 2px dashed black;
 }
+
+/* Quinta sezione main */
+
+.fifth_container{
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
+.slide_2{
+    flex-basis: 70%;
+    height: 700px;
+    background-color: #228b22;
+    border: 2px dashed black;
+}
