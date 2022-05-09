@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #add8e6;
+    padding: 15px;
+}
+
+.container_header{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content:space-between;
+    background-color:#daa520;
+    /* border: 2px dashed black; */
+}
+
+.logo{
+    flex-grow: 1;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+nav{
+    flex-grow: 3;
+    border: 2px dashed black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    flex-grow: 1;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
